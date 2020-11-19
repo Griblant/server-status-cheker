@@ -9,7 +9,6 @@ load_dotenv()
 logging.basicConfig(filename="servlogs.txt", 
 format='%(levelname)s %(asctime)s %(message)s', level=logging.INFO) 
 
-
 URL = 'https://python101.online/'
 TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
 TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN')
